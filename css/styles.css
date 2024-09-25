@@ -1,0 +1,136 @@
+* {
+    font-family: Century Gothic;
+}
+
+/* BARRA DE INICIO */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 5%;
+    font-weight: bold;
+    position: relative;
+}
+
+/* Estilos para los items de la barra de navegación */
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Añade un poco de padding para mejor visualización */
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: black;
+    /* Color del texto */
+    padding: 10px 20px;
+    /* Añade padding dentro del enlace */
+    border-radius: 10px;
+    /* Añade bordes redondeados si lo deseas */
+}
+
+.hiper:hover {
+    background: #B8001F;
+    border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*      SECCION DE HISTORIA      */
+.dores {
+    justify-content: center;
+    margin: 10px;
+}
+
+.Historia {
+    display: flex;
+    justify-content: space-around;
+    background: #04026b;
+    border-radius: 10px;
+}
+
+.flec {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hijohis {
+    background: #B8001F;
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px
+}
+
+.as {
+    background-color: transparent;
+    width: 40%;
+    height: auto;
+    color: #f8f3d4;
+    margin: 20px;
+}
+
+.historia2 {
+    display: flex;
+    justify-content: start;
+    background: #04026b;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.hijohis2 {
+    background: #B8001F;
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/*      SECCION DE JUGADORES      */
+.Jugadores {
+    display: flex;
+    justify-content: center;
+    background: #04026b;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textcenter {
+    text-align: start;
+}
+
+.hijosju1 {
+    background: #B8001F;
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #3d0b0b;
+    width: 23%;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+@media (max-width: 1070px) {
+    .hijosju1 {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hijosju1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
